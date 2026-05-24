@@ -2,10 +2,10 @@
 
 .home-toolbar {
     position: absolute;
-    top: 4.65rem;
-    left: 3.4rem;
-    width: 1.4rem;
-    height: 1rem;
+    top: rem(74);
+    left: rem(54);
+    width: rem(22);
+    height: rem(16);
 
     &__glyph,
     &__cart-glyph {
@@ -16,27 +16,27 @@
 
     &__cart {
         position: absolute;
-        top: 4.05rem;
-        left: 22rem;
-        width: 1.5rem;
-        height: 1.5rem;
+        top: rem(65);
+        left: rem(352);
+        width: rem(24);
+        height: rem(24);
     }
 }
 
 .home-headline {
     position: absolute;
-    top: 8.25rem;
-    left: 3.15rem;
+    top: rem(132);
+    left: rem(50);
     margin: 0;
-    font-size: 2.15rem;
+    font-size: rem(34);
     line-height: 1.2;
     font-weight: 900;
 }
 
 .home-extra {
     position: absolute;
-    top: 26.65rem;
-    left: 20rem;
+    top: rem(426);
+    left: rem(320);
     color: $color-primary;
-    font-size: 1rem;
+    font-size: rem(16);
 }

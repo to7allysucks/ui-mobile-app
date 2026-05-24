@@ -6,28 +6,28 @@
 
     &__badge {
         position: absolute;
-        top: 3.5rem;
-        left: 3.05rem;
-        width: 4.55rem;
-        height: 4.55rem;
+        top: rem(56);
+        left: rem(49);
+        width: rem(73);
+        height: rem(73);
     }
 
     &__brand {
         position: absolute;
-        top: 4.25rem;
-        left: 4rem;
-        width: 3rem;
-        height: 3.1rem;
+        top: rem(68);
+        left: rem(64);
+        width: rem(48);
+        height: rem(50);
         object-fit: contain;
     }
 
     &__headline {
         position: absolute;
-        top: 10rem;
-        left: 3.2rem;
+        top: rem(160);
+        left: rem(51);
         margin: 0;
         color: $color-light;
-        font-size: 4.05rem;
+        font-size: rem(65);
         line-height: 0.868;
         letter-spacing: 0;
         font-weight: 900;
@@ -44,32 +44,32 @@
     }
 
     &__character--left {
-        top: 22rem;
-        left: -5.15rem;
-        width: 22.4rem;
-        height: 27.15rem;
+        top: rem(352);
+        left: rem(-82);
+        width: rem(358);
+        height: rem(434);
         transform: rotate(-3.1deg);
     }
 
     &__character--right {
-        top: 27.6rem;
-        left: 12.3rem;
-        width: 14.1rem;
-        height: 19rem;
+        top: rem(442);
+        left: rem(197);
+        width: rem(226);
+        height: rem(304);
         transform: rotate(8.57deg);
     }
 
     &__deco-shape--left {
-        top: 39.4rem;
-        left: -5rem;
-        width: 24.65rem;
-        height: 12.2rem;
+        top: rem(630);
+        left: rem(-80);
+        width: rem(394);
+        height: rem(195);
     }
 
     &__deco-shape--right {
-        top: 49.05rem;
-        left: 10.65rem;
-        width: 22.3rem;
-        height: 4rem;
+        top: rem(785);
+        left: rem(170);
+        width: rem(357);
+        height: rem(64);
     }
 }

@@ -3,11 +3,11 @@
 .item-detail {
     &__media-wrap {
         position: absolute;
-        top: 6rem;
+        top: rem(96);
         left: 50%;
         transform: translateX(-50%);
-        width: 15.05rem;
-        height: 15.05rem;
+        width: rem(241);
+        height: rem(241);
         overflow: hidden;
         border-radius: 50%;
     }
@@ -23,19 +23,19 @@
 
     &__pager {
         position: absolute;
-        top: 23.3rem;
-        left: 11rem;
-        width: 4.25rem;
-        height: 0.5rem;
+        top: rem(373);
+        left: rem(176);
+        width: rem(68);
+        height: rem(8);
     }
 
     &__title {
         position: absolute;
-        top: 26.65rem;
-        left: 3rem;
-        width: 20rem;
+        top: rem(426);
+        left: rem(48);
+        width: rem(320);
         margin: 0;
-        font-size: 2rem;
+        font-size: rem(32);
         line-height: 1.013;
         font-weight: 800;
         text-align: center;
@@ -43,40 +43,40 @@
 
     &__cost {
         position: absolute;
-        top: 29.45rem;
-        left: 7.55rem;
-        width: 11rem;
+        top: rem(471);
+        left: rem(121);
+        width: rem(176);
         margin: 0;
         color: $color-primary;
-        font-size: 1.4rem;
+        font-size: rem(22);
         font-weight: 800;
         text-align: center;
     }
 
     &__block {
         position: absolute;
-        left: 3.3rem;
-        width: 18.55rem;
+        left: rem(53);
+        width: rem(297);
     }
 
     &__block--delivery {
-        top: 33.3rem;
+        top: rem(533);
     }
 
     &__block--return {
-        top: 40.2rem;
+        top: rem(643);
     }
 
     &__subheading {
-        margin: 0 0 0.5rem;
-        font-size: 1.05rem;
+        margin: 0 0 rem(8);
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &__copy {
         margin: 0;
         color: rgb(0, 0, 0, 0.5);
-        font-size: 1rem;
+        font-size: rem(16);
         line-height: 1.55;
         font-weight: 600;
     }

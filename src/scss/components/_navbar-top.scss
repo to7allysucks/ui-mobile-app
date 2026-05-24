@@ -2,20 +2,20 @@
 
 .navbar-top {
     position: absolute;
-    top: 4rem;
-    right: 2.55rem;
-    left: 2.55rem;
+    top: rem(64);
+    right: rem(41);
+    left: rem(41);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
+    height: rem(24);
     z-index: 10;
 
     &__return,
     &__utility {
         position: absolute;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: rem(24);
+        height: rem(24);
     }
 
     &__return {
@@ -34,7 +34,7 @@
 
     &__label {
         margin: 0;
-        font-size: 1.15rem;
+        font-size: rem(18);
         line-height: 1.2;
         font-weight: 700;
     }

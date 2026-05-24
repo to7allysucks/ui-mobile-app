@@ -1,69 +1,69 @@
 @use '../utilities' as *;
 
 .order-summary {
-    padding: 8rem 3.15rem 0;
+    padding: rem(128) rem(50) 0;
 
     &__heading {
-        margin: 0 0 2.5rem;
-        font-size: 2.15rem;
+        margin: 0 0 rem(40);
+        font-size: rem(34);
         line-height: 1.2;
         font-weight: 900;
     }
 
     &__section-title {
-        margin: 0 0 1rem;
-        font-size: 1.05rem;
+        margin: 0 0 rem(16);
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &__edit {
         float: right;
         color: $color-primary;
-        font-size: 1rem;
+        font-size: rem(16);
     }
 
     &__section {
-        margin-top: 2.65rem;
+        margin-top: rem(42);
     }
 
     &__total {
         position: absolute;
-        top: 44.45rem;
-        left: 3.15rem;
+        top: rem(711);
+        left: rem(50);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 20rem;
-        font-size: 1.05rem;
+        width: rem(320);
+        font-size: rem(17);
     }
 
     &__sum {
-        font-size: 1.4rem;
+        font-size: rem(22);
         font-weight: 900;
     }
 }
 
 .info-panel {
-    border-radius: 1.25rem;
+    border-radius: rem(20);
     background: $color-light;
 }
 
 .location-panel {
-    height: 10rem;
-    padding: 1.55rem 2rem;
+    height: rem(160);
+    padding: rem(25) rem(32);
 
     &__person {
         margin: 0;
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &__line {
-        margin: 1rem 0 0;
-        padding-top: 0.65rem;
-        border-top: 0.05rem solid rgb(0, 0, 0, 0.18);
+        margin: rem(16) 0 0;
+        padding-top: rem(10);
+        border-top: rem(1) solid rgb(0, 0, 0, 0.18);
         color: rgb(0, 0, 0, 0.58);
-        font-size: 1rem;
+        font-size: rem(16);
         line-height: 1.35;
         font-weight: 600;
     }

@@ -1,67 +1,67 @@
 @use '../utilities' as *;
 
 .user-profile {
-    padding: 8rem 2.65rem 0;
+    padding: rem(128) rem(42) 0;
 
     &__heading {
-        margin: 0 0 2.5rem 0.5rem;
-        font-size: 2.15rem;
+        margin: 0 0 rem(40) rem(8);
+        font-size: rem(34);
         font-weight: 900;
     }
 
     &__section-title {
-        margin: 0 0 1rem;
-        font-size: 1.05rem;
+        margin: 0 0 rem(16);
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &__edit {
         float: right;
         color: $color-primary;
-        font-size: 1rem;
+        font-size: rem(16);
     }
 }
 
 .identity-card {
     position: relative;
-    width: 20rem;
-    min-height: 12.3rem;
-    padding: 1rem 1rem 1rem 7.65rem;
-    border-radius: 1.25rem;
+    width: rem(320);
+    min-height: rem(197);
+    padding: rem(16) rem(16) rem(16) rem(122);
+    border-radius: rem(20);
     background: $color-light;
 
     &--compact {
-        min-height: 8.3rem;
-        padding-left: 6rem;
+        min-height: rem(133);
+        padding-left: rem(96);
     }
 
     &__portrait {
         position: absolute;
-        top: 1.15rem;
-        left: 1rem;
-        width: 6rem;
-        height: 6.25rem;
-        border-radius: 1rem;
+        top: rem(18);
+        left: rem(16);
+        width: rem(96);
+        height: rem(100);
+        border-radius: rem(16);
         object-fit: cover;
     }
 
     &--compact &__portrait {
-        width: 4rem;
-        height: 4rem;
+        width: rem(64);
+        height: rem(64);
     }
 
     &__name {
         margin: 0;
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &__detail {
-        margin: 0.55rem 0 0;
-        padding-top: 0.55rem;
-        border-top: 0.05rem solid rgb(0, 0, 0, 0.16);
+        margin: rem(9) 0 0;
+        padding-top: rem(9);
+        border-top: rem(1) solid rgb(0, 0, 0, 0.16);
         color: rgb(0, 0, 0, 0.55);
-        font-size: 1rem;
+        font-size: rem(16);
         line-height: 1.35;
         font-weight: 600;
     }

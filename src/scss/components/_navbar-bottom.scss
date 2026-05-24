@@ -2,23 +2,23 @@
 
 .navbar-bottom {
     position: absolute;
-    top: 51.15rem;
-    right: 3.15rem;
-    left: 3.15rem;
+    top: rem(818);
+    right: rem(50);
+    left: rem(50);
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 10;
 
     &__glyph {
-        width: 2rem;
-        height: 2rem;
+        width: rem(32);
+        height: rem(32);
         opacity: 0.35;
         object-fit: contain;
     }
 
     &__glyph--current {
         opacity: 1;
-        filter: drop-shadow(0 0.4rem 0.65rem rgb(215, 56, 0, 0.4));
+        filter: drop-shadow(0 rem(6) rem(10) rgb(215, 56, 0, 0.4));
     }
 }

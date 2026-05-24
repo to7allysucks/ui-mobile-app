@@ -2,38 +2,38 @@
 
 .welcome-hero {
     position: absolute;
-    top: -1rem;
+    top: rem(-16);
     left: 0;
     width: $screen-width;
-    height: 24rem;
-    border-radius: 0 0 2rem 2rem;
+    height: rem(384);
+    border-radius: 0 0 rem(32) rem(32);
     background: $color-light;
-    box-shadow: 0 0.25rem 2rem rgb(0, 0, 0, 0.05);
+    box-shadow: 0 rem(4) rem(32) rgb(0, 0, 0, 0.05);
 }
 
 .access-brand {
     position: absolute;
-    top: 7.05rem;
-    left: 8.5rem;
-    width: 9.4rem;
-    height: 10.15rem;
+    top: rem(113);
+    left: rem(136);
+    width: rem(150);
+    height: rem(162);
     object-fit: contain;
 }
 
 .access-tabs {
     position: absolute;
-    top: 20.65rem;
-    left: 3.15rem;
+    top: rem(330);
+    left: rem(50);
     display: flex;
     justify-content: space-between;
-    width: 19.65rem;
-    font-size: 1.15rem;
+    width: rem(314);
+    font-size: rem(18);
     font-weight: 700;
 
     &__option {
         position: relative;
-        width: 8.4rem;
-        height: 2.5rem;
+        width: rem(134);
+        height: rem(40);
         text-align: center;
     }
 
@@ -43,44 +43,44 @@
         right: 0;
         bottom: 0;
         left: 0;
-        height: 0.2rem;
-        border-radius: 2rem;
+        height: rem(3);
+        border-radius: rem(32);
         background: $color-primary;
     }
 }
 
 .credential-form {
     position: absolute;
-    top: 27rem;
-    left: 3.15rem;
-    width: 19.65rem;
+    top: rem(432);
+    left: rem(50);
+    width: rem(314);
 
     &__group {
         display: block;
-        height: 4rem;
-        margin-bottom: 3rem;
-        border-bottom: 0.05rem solid $color-border;
+        height: rem(64);
+        margin-bottom: rem(48);
+        border-bottom: rem(1) solid $color-border;
     }
 
     &__caption {
         display: block;
-        margin-bottom: 0.45rem;
+        margin-bottom: rem(7);
         color: rgb(0, 0, 0, 0.4);
-        font-size: 0.95rem;
+        font-size: rem(15);
         font-weight: 600;
     }
 
     &__data {
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 700;
     }
 
     &__recover {
         position: absolute;
-        top: 12.4rem;
+        top: rem(198);
         left: 0;
         color: $color-primary;
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 700;
     }
 }

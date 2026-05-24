@@ -6,43 +6,43 @@
 
     &__preview {
         position: absolute;
-        top: 10rem;
-        left: 16rem;
-        width: 16.3rem;
-        height: 35.15rem;
-        border-radius: 2rem;
-        box-shadow: 0 1rem 3rem rgb(0, 0, 0, 0.18);
+        top: rem(160);
+        left: rem(256);
+        width: rem(261);
+        height: rem(562);
+        border-radius: rem(32);
+        box-shadow: 0 rem(16) rem(48) rgb(0, 0, 0, 0.18);
         object-fit: cover;
     }
 
     &__list {
         position: absolute;
-        top: 10rem;
-        left: 2.4rem;
-        width: 10.65rem;
+        top: rem(160);
+        left: rem(38);
+        width: rem(170);
     }
 
     &__item {
         display: flex;
         align-items: center;
-        gap: 1rem;
-        height: 5rem;
-        border-bottom: 0.05rem solid rgb(255, 255, 255, 0.25);
-        font-size: 1.05rem;
+        gap: rem(16);
+        height: rem(80);
+        border-bottom: rem(1) solid rgb(255, 255, 255, 0.25);
+        font-size: rem(17);
         font-weight: 700;
     }
 
     &__glyph {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: rem(24);
+        height: rem(24);
         filter: brightness(0) invert(1);
     }
 
     &__logout {
         position: absolute;
-        top: 49rem;
-        left: 2.55rem;
-        font-size: 1.05rem;
+        top: rem(784);
+        left: rem(41);
+        font-size: rem(17);
         font-weight: 700;
     }
 }

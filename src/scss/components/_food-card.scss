@@ -3,41 +3,41 @@
 .food-card {
     position: absolute;
     display: block;
-    width: 14rem;
-    height: 20.05rem;
+    width: rem(224);
+    height: rem(321);
     color: $color-dark;
     text-align: center;
 
     &--start {
-        top: 28rem;
-        left: 3.15rem;
+        top: rem(448);
+        left: rem(50);
     }
 
     &--end {
-        top: 28rem;
-        left: 19rem;
+        top: rem(448);
+        left: rem(304);
     }
 
     &--compact {
-        width: 10rem;
-        height: 16rem;
+        width: rem(160);
+        height: rem(256);
     }
 
     &__surface {
         position: absolute;
-        top: 3.2rem;
+        top: rem(51);
         left: 0;
-        width: 14rem;
-        height: 17rem;
-        border-radius: 2rem;
+        width: rem(224);
+        height: rem(272);
+        border-radius: rem(32);
         background: $color-light;
-        box-shadow: 0 2rem 4rem rgb(57, 57, 57, 0.1);
+        box-shadow: 0 rem(32) rem(64) rgb(57, 57, 57, 0.1);
     }
 
     &--compact &__surface {
-        top: 2.5rem;
-        width: 10rem;
-        height: 13.3rem;
+        top: rem(40);
+        width: rem(160);
+        height: rem(213);
     }
 
     &__circle {
@@ -45,15 +45,15 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        width: 10.25rem;
-        height: 10.25rem;
+        width: rem(164);
+        height: rem(164);
         overflow: hidden;
         border-radius: 50%;
     }
 
     &--compact &__circle {
-        width: 8.05rem;
-        height: 8.05rem;
+        width: rem(129);
+        height: rem(129);
     }
 
     &__photo {
@@ -74,37 +74,37 @@
 
     &__name {
         position: absolute;
-        top: 12.25rem;
-        left: 3rem;
-        width: 8rem;
+        top: rem(196);
+        left: rem(48);
+        width: rem(128);
         margin: 0;
-        font-size: 1.4rem;
+        font-size: rem(22);
         line-height: 1.013;
         font-weight: 800;
     }
 
     &--compact &__name {
-        top: 9.2rem;
-        left: 1.05rem;
-        width: 7rem;
-        font-size: 1.05rem;
+        top: rem(147);
+        left: rem(17);
+        width: rem(112);
+        font-size: rem(17);
         line-height: 1.04;
     }
 
     &__cost {
         position: absolute;
-        top: 16.45rem;
+        top: rem(263);
         left: 0;
-        width: 14rem;
+        width: rem(224);
         margin: 0;
         color: $color-primary;
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 800;
     }
 
     &--compact &__cost {
-        top: 13rem;
-        width: 10rem;
-        font-size: 1rem;
+        top: rem(208);
+        width: rem(160);
+        font-size: rem(16);
     }
 }

@@ -2,27 +2,27 @@
 
 .search-field {
     position: absolute;
-    top: 15.15rem;
-    left: 3.15rem;
-    width: 19.65rem;
-    height: 4rem;
-    border-radius: 2rem;
+    top: rem(242);
+    left: rem(50);
+    width: rem(314);
+    height: rem(64);
+    border-radius: rem(32);
     background: #efeeee;
 
     &__glyph {
         position: absolute;
-        top: 1.3rem;
-        left: 2.2rem;
-        width: 1.15rem;
-        height: 1.15rem;
+        top: rem(21);
+        left: rem(35);
+        width: rem(18);
+        height: rem(18);
     }
 
     &__text {
         position: absolute;
-        top: 1.25rem;
-        left: 4.3rem;
+        top: rem(20);
+        left: rem(69);
         color: rgb(0, 0, 0, 0.5);
-        font-size: 1.05rem;
+        font-size: rem(17);
         font-weight: 600;
     }
 }

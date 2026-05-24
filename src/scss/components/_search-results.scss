@@ -2,25 +2,25 @@
 
 .search-header {
     position: absolute;
-    top: 4.5rem;
-    left: 6.3rem;
+    top: rem(72);
+    left: rem(101);
     margin: 0;
-    font-size: 1.05rem;
+    font-size: rem(17);
     font-weight: 700;
 }
 
 .results-board {
     position: absolute;
-    top: 8.05rem;
+    top: rem(129);
     left: 0;
     width: $screen-width;
-    min-height: 51rem;
-    border-radius: 2rem 2rem 0 0;
+    min-height: rem(816);
+    border-radius: rem(32) rem(32) 0 0;
     background: $color-panel;
 
     &__headline {
-        margin: 2rem 0 0;
-        font-size: 2rem;
+        margin: rem(32) 0 0;
+        font-size: rem(32);
         font-weight: 800;
         text-align: center;
     }
@@ -28,32 +28,32 @@
 
 .results__grid {
     .food-card--one {
-        top: 15.15rem;
-        left: 2.15rem;
+        top: rem(242);
+        left: rem(34);
     }
 
     .food-card--two {
-        top: 18.5rem;
-        left: 14.05rem;
+        top: rem(296);
+        left: rem(225);
     }
 
     .food-card--three {
-        top: 32rem;
-        left: 2.15rem;
+        top: rem(512);
+        left: rem(34);
     }
 
     .food-card--four {
-        top: 36rem;
-        left: 14.05rem;
+        top: rem(576);
+        left: rem(225);
     }
 
     .food-card--five {
-        top: 49.65rem;
-        left: 2.15rem;
+        top: rem(794);
+        left: rem(34);
     }
 
     .food-card--six {
-        top: 53.45rem;
-        left: 14.05rem;
+        top: rem(855);
+        left: rem(225);
     }
 }

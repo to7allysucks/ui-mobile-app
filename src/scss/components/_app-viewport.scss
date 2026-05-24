@@ -16,7 +16,7 @@
     width: $screen-width;
     min-height: $screen-short;
     overflow: hidden;
-    border-radius: 1.25rem;
+    border-radius: rem(20);
     background: $color-surface;
 
     @include respond-to(mobile) {
