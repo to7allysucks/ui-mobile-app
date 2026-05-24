@@ -1,0 +1,68 @@
+@use '../utilities' as *;
+
+.user-profile {
+    padding: 8rem 2.65rem 0;
+
+    &__heading {
+        margin: 0 0 2.5rem 0.5rem;
+        font-size: 2.15rem;
+        font-weight: 900;
+    }
+
+    &__section-title {
+        margin: 0 0 1rem;
+        font-size: 1.05rem;
+        font-weight: 800;
+    }
+
+    &__edit {
+        float: right;
+        color: $color-primary;
+        font-size: 1rem;
+    }
+}
+
+.identity-card {
+    position: relative;
+    width: 20rem;
+    min-height: 12.3rem;
+    padding: 1rem 1rem 1rem 7.65rem;
+    border-radius: 1.25rem;
+    background: $color-light;
+
+    &--compact {
+        min-height: 8.3rem;
+        padding-left: 6rem;
+    }
+
+    &__portrait {
+        position: absolute;
+        top: 1.15rem;
+        left: 1rem;
+        width: 6rem;
+        height: 6.25rem;
+        border-radius: 1rem;
+        object-fit: cover;
+    }
+
+    &--compact &__portrait {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &__name {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 800;
+    }
+
+    &__detail {
+        margin: 0.55rem 0 0;
+        padding-top: 0.55rem;
+        border-top: 0.05rem solid rgb(0, 0, 0, 0.16);
+        color: rgb(0, 0, 0, 0.55);
+        font-size: 1rem;
+        line-height: 1.35;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,41 @@
+@use '../utilities' as *;
+
+.empty-placeholder {
+    position: absolute;
+    top: 17rem;
+    right: 3rem;
+    left: 3rem;
+    text-align: center;
+
+    &--offline {
+        top: 15.5rem;
+    }
+
+    &--offers {
+        top: 30.5rem;
+    }
+
+    &__glyph {
+        display: block;
+        width: 8.15rem;
+        height: 8.15rem;
+        margin: 0 auto 1.5rem;
+        object-fit: contain;
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 900;
+    }
+
+    &__text {
+        width: 14rem;
+        margin: 1rem auto 0;
+        color: rgb(0, 0, 0, 0.55);
+        font-size: 1.05rem;
+        line-height: 1.25;
+        font-weight: 600;
+    }
+}

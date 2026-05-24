@@ -1,0 +1,68 @@
+@use '../utilities' as *;
+
+.search-header {
+    position: absolute;
+    top: 4.5rem;
+    left: 6.3rem;
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.search-rule {
+    position: absolute;
+    top: 4.3rem;
+    left: 13.55rem;
+    width: 0.05rem;
+    height: 1.65rem;
+    background: rgb(0, 0, 0, 0.25);
+}
+
+.results-board {
+    position: absolute;
+    top: 8.05rem;
+    left: 0;
+    width: $screen-width;
+    min-height: 51rem;
+    border-radius: 2rem 2rem 0 0;
+    background: $color-panel;
+
+    &__headline {
+        margin: 2rem 0 0;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+}
+
+.results__grid {
+    .food-card--one {
+        top: 15.15rem;
+        left: 2.15rem;
+    }
+
+    .food-card--two {
+        top: 18.5rem;
+        left: 14.05rem;
+    }
+
+    .food-card--three {
+        top: 32rem;
+        left: 2.15rem;
+    }
+
+    .food-card--four {
+        top: 36rem;
+        left: 14.05rem;
+    }
+
+    .food-card--five {
+        top: 49.65rem;
+        left: 2.15rem;
+    }
+
+    .food-card--six {
+        top: 53.45rem;
+        left: 14.05rem;
+    }
+}

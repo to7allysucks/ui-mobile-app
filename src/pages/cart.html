@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "product.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Cart",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <img class="basket-hint" src="assets/icons/icon-swipe.svg" alt="">
+      <p class="basket-tip">swipe on an item to delete</p>
+      <article class="basket-row basket-row--first">
+        <span class="basket-row__thumb-wrap">
+          <img class="basket-row__thumb" src="assets/images/veggie-tomato-mix.png" alt="">
+        </span>
+        <h2 class="basket-row__name">Veggie tomato mix</h2>
+        <p class="basket-row__cost">#1,900</p>
+        <div class="basket-row__quantity">
+          <span>-</span>
+          <span>1</span>
+          <span>+</span>
+        </div>
+      </article>
+      <article class="basket-row basket-row--second">
+        <span class="basket-row__thumb-wrap">
+          <img class="basket-row__thumb" src="assets/images/spicy-fish-sauce.png" alt="">
+        </span>
+        <h2 class="basket-row__name">Fish with mix orange...</h2>
+        <p class="basket-row__cost">#1,900</p>
+        <div class="basket-row__quantity">
+          <span>-</span>
+          <span>1</span>
+          <span>+</span>
+        </div>
+      </article>
+      <article class="basket-row basket-row--third">
+        <span class="basket-row__thumb-wrap">
+          <img class="basket-row__thumb" src="assets/images/veggie-tomato-mix.png" alt="">
+        </span>
+        <h2 class="basket-row__name">Veggie tomato mix</h2>
+        <p class="basket-row__cost">#1,900</p>
+        <div class="basket-row__quantity">
+          <span>-</span>
+          <span>1</span>
+          <span>+</span>
+        </div>
+      </article>
+      <a class="basket-round basket-round--heart" href="offers.html"></a>
+      <a class="basket-round basket-round--trash" href="cart.html"></a>
+      <a class="action-button" href="checkout-delivery.html">Complete order</a>
+    </section>
+  </div>
+</body>
+</html>

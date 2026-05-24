@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "profile.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Orders",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="empty-placeholder">
+        <img class="empty-placeholder__glyph" src="assets/icons/icon-empty-orders.svg" alt="">
+        <h1 class="empty-placeholder__title">No orders yet</h1>
+        <p class="empty-placeholder__text">Hit the orange button down below to Create an order</p>
+      </div>
+      <a class="action-button" href="home.html">Start ordering</a>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Note - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "checkout-payment.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Checkout",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="order-summary">
+        <h2 class="order-summary__heading">Payment</h2>
+        <section>
+          <h3 class="order-summary__section-title">Payment method</h3>
+          <div class="info-panel payment-method payment-method--payment">
+            <div class="payment-method__row">
+              <span class="choice-indicator choice-indicator--active"></span>
+              <span class="payment-method__icon-wrap">
+                <img class="payment-method__icon" src="assets/icons/icon-card.svg" alt="">
+              </span>
+              <span class="payment-method__label">Card</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__icon-wrap payment-method__icon-wrap--pink">
+                <img class="payment-method__icon" src="assets/icons/icon-bank.svg" alt="">
+              </span>
+              <span class="payment-method__label">Bank account</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="order-summary__total">
+        <span>Total</span>
+        <strong class="order-summary__sum">23,000</strong>
+      </div>
+      <a class="action-button" href="home.html">Proceed to payment</a>
+      <div class="dim-overlay"></div>
+      <div class="notice-popup">
+        <h2 class="notice-popup__heading">Please note</h2>
+        <div class="notice-popup__body">
+          <p class="notice-popup__label">Delivery to Mainland</p>
+          <p class="notice-popup__cost">N1,000 - N2,000</p>
+          <div class="notice-popup__divider"></div>
+          <p class="notice-popup__label">Delivery to Island</p>
+          <p class="notice-popup__cost">N2,000 - N3,000</p>
+        </div>
+        <a class="notice-popup__abort" href="checkout-payment.html">Cancel</a>
+        <a class="notice-popup__forward" href="home.html">Proceed</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

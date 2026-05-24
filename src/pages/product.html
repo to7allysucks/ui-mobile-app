@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame item-detail">
+      @@include('_navbar-top.html', {
+        "linkBack": "home.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "",
+        "linkAction": "offers.html",
+        "iconAction": "assets/icons/icon-heart.svg"
+      })
+      <div class="item-detail__media-wrap">
+        <img class="item-detail__media" src="assets/images/veggie-tomato-mix.png" alt="Veggie tomato mix">
+      </div>
+      <img class="item-detail__pager" src="assets/icons/dots-indicator.svg" alt="">
+      <h1 class="item-detail__title">Veggie tomato mix</h1>
+      <p class="item-detail__cost">N1,900</p>
+      <section class="item-detail__block item-detail__block--delivery">
+        <h2 class="item-detail__subheading">Delivery info</h2>
+        <p class="item-detail__copy">Delivered between monday aug and thursday 20 from 8pm to 9:32 pm</p>
+      </section>
+      <section class="item-detail__block item-detail__block--return">
+        <h2 class="item-detail__subheading">Return policy</h2>
+        <p class="item-detail__copy">All our foods are double checked before leaving our stores so by any case you found a broken food please contact our hotline immediately.</p>
+      </section>
+      <a class="action-button" href="cart.html">Add to cart</a>
+    </section>
+  </div>
+</body>
+</html>

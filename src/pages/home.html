@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame app-frame--extended">
+      <a href="menu.html" class="home-toolbar">
+        <img src="assets/icons/icon-menu.svg" alt="Menu" class="home-toolbar__glyph">
+      </a>
+      <a href="cart.html" class="home-toolbar__cart">
+        <img src="assets/icons/icon-cart.svg" alt="Cart" class="home-toolbar__cart-glyph">
+      </a>
+      <h1 class="home-headline">Delicious<br>food for you</h1>
+      <a class="search-field" href="search-results.html">
+        <img class="search-field__glyph" src="assets/icons/icon-search.svg" alt="">
+        <span class="search-field__text">Search</span>
+      </a>
+      <nav class="category-bar">
+        <a class="category-bar__option category-bar__option--highlight" href="home.html">Foods</a>
+        <a class="category-bar__option" href="home.html">Drinks</a>
+        <a class="category-bar__option" href="home.html">Snacks</a>
+        <a class="category-bar__option" href="home.html">Sauce</a>
+      </nav>
+      <a class="home-extra" href="search-results.html">see more</a>
+      <a class="food-card food-card--start" href="product.html">
+        <span class="food-card__surface"></span>
+        <span class="food-card__circle">
+          <img class="food-card__photo" src="assets/images/veggie-tomato-mix.png" alt="Veggie tomato mix">
+        </span>
+        <h2 class="food-card__name">Veggie tomato mix</h2>
+        <p class="food-card__cost">N1,900</p>
+      </a>
+      <a class="food-card food-card--end" href="product.html">
+        <span class="food-card__surface"></span>
+        <span class="food-card__circle">
+          <img class="food-card__photo" src="assets/images/spicy-fish-sauce.png" alt="Spicy fish sauce">
+        </span>
+        <h2 class="food-card__name">Spicy fish sauce</h2>
+        <p class="food-card__cost">N2,300.99</p>
+      </a>
+      @@include('_navbar-bottom.html', {
+        "classHome": "navbar-bottom__glyph--current",
+        "classOffers": "",
+        "classProfile": "",
+        "classHistory": ""
+      })
+    </section>
+  </div>
+</body>
+</html>

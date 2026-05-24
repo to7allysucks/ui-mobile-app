@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Payment - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "checkout-delivery.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Checkout",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="order-summary">
+        <h2 class="order-summary__heading">Payment</h2>
+        <section>
+          <h3 class="order-summary__section-title">Payment method</h3>
+          <div class="info-panel payment-method payment-method--payment">
+            <div class="payment-method__row">
+              <span class="choice-indicator choice-indicator--active"></span>
+              <span class="payment-method__icon-wrap">
+                <img class="payment-method__icon" src="assets/icons/icon-card.svg" alt="">
+              </span>
+              <span class="payment-method__label">Card</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__icon-wrap payment-method__icon-wrap--pink">
+                <img class="payment-method__icon" src="assets/icons/icon-bank.svg" alt="">
+              </span>
+              <span class="payment-method__label">Bank account</span>
+            </div>
+          </div>
+        </section>
+        <section class="order-summary__section">
+          <h3 class="order-summary__section-title">Delivery method</h3>
+          <div class="info-panel payment-method payment-method--delivery">
+            <div class="payment-method__row">
+              <span class="choice-indicator choice-indicator--active"></span>
+              <span class="payment-method__label">Door delivery</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__label">Pick up</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="order-summary__total">
+        <span>Total</span>
+        <strong class="order-summary__sum">23,000</strong>
+      </div>
+      <a class="action-button" href="checkout-note.html">Proceed to payment</a>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Payment - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "profile.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "My profile",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="user-profile">
+        <h2 class="user-profile__section-title">Information</h2>
+        <article class="identity-card identity-card--compact">
+          <img class="identity-card__portrait" src="assets/images/avatar-profile.png" alt="">
+          <h3 class="identity-card__name">Marvis Ighedosa</h3>
+          <p class="identity-card__detail">Dosamarvis@gmail.com</p>
+          <p class="identity-card__detail">No 15 uti street off ovie palace road effurun delta state</p>
+        </article>
+        <section class="order-summary__section">
+          <h3 class="order-summary__section-title">Payment Method</h3>
+          <div class="info-panel payment-method payment-method--profile">
+            <div class="payment-method__row">
+              <span class="choice-indicator choice-indicator--active"></span>
+              <span class="payment-method__icon-wrap">
+                <img class="payment-method__icon" src="assets/icons/icon-card.svg" alt="">
+              </span>
+              <span class="payment-method__label">Card</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__icon-wrap payment-method__icon-wrap--pink">
+                <img class="payment-method__icon" src="assets/icons/icon-bank.svg" alt="">
+              </span>
+              <span class="payment-method__label">Bank account</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__icon-wrap">
+                <img class="payment-method__icon" src="assets/icons/icon-paypal.svg" alt="">
+              </span>
+              <span class="payment-method__label">Paypal</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <a class="action-button" href="profile.html">Update</a>
+    </section>
+  </div>
+</body>
+</html>

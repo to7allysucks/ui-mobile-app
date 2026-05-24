@@ -1,0 +1,72 @@
+@use '../utilities' as *;
+
+.notice-popup {
+    position: absolute;
+    top: 19.15rem;
+    left: 3.05rem;
+    width: 20rem;
+    height: 20.15rem;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    background: $color-light;
+
+    &__heading {
+        height: 4.15rem;
+        margin: 0;
+        padding: 1rem 3rem;
+        background: #f6f6f9;
+        font-size: 1.65rem;
+        font-weight: 900;
+    }
+
+    &__body {
+        padding: 2rem 3rem 0;
+    }
+
+    &__label {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 700;
+    }
+
+    &__cost {
+        margin: 0.3rem 0 2rem;
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+
+    &__divider {
+        height: 0.05rem;
+        margin: 0 0 1rem;
+        background: rgb(0, 0, 0, 0.18);
+    }
+
+    &__abort {
+        position: absolute;
+        bottom: 2.05rem;
+        left: 3rem;
+        font-size: 1.4rem;
+    }
+
+    &__forward {
+        position: absolute;
+        right: 1.15rem;
+        bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10rem;
+        height: 4rem;
+        border-radius: 2rem;
+        background: $color-primary;
+        color: $color-light;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+}
+
+.dim-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0, 0.45);
+}

@@ -1,0 +1,70 @@
+@use '../utilities' as *;
+
+.order-summary {
+    padding: 8rem 3.15rem 0;
+
+    &__heading {
+        margin: 0 0 2.5rem;
+        font-size: 2.15rem;
+        line-height: 1.2;
+        font-weight: 900;
+    }
+
+    &__section-title {
+        margin: 0 0 1rem;
+        font-size: 1.05rem;
+        font-weight: 800;
+    }
+
+    &__edit {
+        float: right;
+        color: $color-primary;
+        font-size: 1rem;
+    }
+
+    &__section {
+        margin-top: 2.65rem;
+    }
+
+    &__total {
+        position: absolute;
+        top: 44.45rem;
+        left: 3.15rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20rem;
+        font-size: 1.05rem;
+    }
+
+    &__sum {
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+}
+
+.info-panel {
+    border-radius: 1.25rem;
+    background: $color-light;
+}
+
+.location-panel {
+    height: 10rem;
+    padding: 1.55rem 2rem;
+
+    &__person {
+        margin: 0;
+        font-size: 1.05rem;
+        font-weight: 800;
+    }
+
+    &__line {
+        margin: 1rem 0 0;
+        padding-top: 0.65rem;
+        border-top: 0.05rem solid rgb(0, 0, 0, 0.18);
+        color: rgb(0, 0, 0, 0.58);
+        font-size: 1rem;
+        line-height: 1.35;
+        font-weight: 600;
+    }
+}

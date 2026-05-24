@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Delivery - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "cart.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Checkout",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="order-summary">
+        <h2 class="order-summary__heading">Delivery</h2>
+        <section>
+          <h3 class="order-summary__section-title">
+            Address details
+            <a class="order-summary__edit" href="profile.html">change</a>
+          </h3>
+          <div class="info-panel location-panel">
+            <p class="location-panel__person">Marvis Kparobo</p>
+            <p class="location-panel__line">Km 5 refinery road opposite re public road, effurun, delta state</p>
+            <p class="location-panel__line">+234 9011039271</p>
+          </div>
+        </section>
+        <section class="order-summary__section">
+          <h3 class="order-summary__section-title">Delivery method</h3>
+          <div class="info-panel payment-method payment-method--delivery">
+            <div class="payment-method__row">
+              <span class="choice-indicator choice-indicator--active"></span>
+              <span class="payment-method__label">Door delivery</span>
+            </div>
+            <div class="payment-method__row">
+              <span class="choice-indicator"></span>
+              <span class="payment-method__label">Pick up</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="order-summary__total">
+        <span>Total</span>
+        <strong class="order-summary__sum">23,000</strong>
+      </div>
+      <a class="action-button" href="checkout-payment.html">Proceed to payment</a>
+    </section>
+  </div>
+</body>
+</html>

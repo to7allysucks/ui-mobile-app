@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "home.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "My profile",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="user-profile">
+        <h2 class="user-profile__section-title">
+          Personal details
+          <a class="user-profile__edit" href="profile-payment.html">change</a>
+        </h2>
+        <article class="identity-card">
+          <img class="identity-card__portrait" src="assets/images/avatar-profile.png" alt="">
+          <h3 class="identity-card__name">Marvis Ighedosa</h3>
+          <p class="identity-card__detail">Dosamarvis@gmail.com</p>
+          <p class="identity-card__detail">+234 9011039271</p>
+          <p class="identity-card__detail">No 15 uti street off ovie palace road effurun delta state</p>
+        </article>
+        <nav class="profile-menu">
+          <a class="profile-menu__link" href="orders.html">Orders
+            <img class="profile-menu__chevron" src="assets/icons/chevron-left.svg" alt="">
+          </a>
+          <a class="profile-menu__link" href="history.html">Pending reviews
+            <img class="profile-menu__chevron" src="assets/icons/chevron-left.svg" alt="">
+          </a>
+          <a class="profile-menu__link" href="offers.html">Faq
+            <img class="profile-menu__chevron" src="assets/icons/chevron-left.svg" alt="">
+          </a>
+          <a class="profile-menu__link" href="offline.html">Help
+            <img class="profile-menu__chevron" src="assets/icons/chevron-left.svg" alt="">
+          </a>
+        </nav>
+      </div>
+      <a class="action-button" href="profile-payment.html">Update</a>
+    </section>
+  </div>
+</body>
+</html>

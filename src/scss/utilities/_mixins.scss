@@ -1,0 +1,31 @@
+@use 'variables' as *;
+@use 'functions' as *;
+@use 'sass:map';
+
+@mixin respond-to($device) {
+    @if map.has-key($breakpoints, $device) {
+        @media (max-width: map.get($breakpoints, $device)) {
+            @content;
+        }
+    }
+}
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin absolute-horizontal-center($top) {
+    position: absolute;
+    top: $top;
+    left: 3.15rem;
+    width: 19.65rem;
+}

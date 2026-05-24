@@ -1,0 +1,66 @@
+@use '../utilities' as *;
+
+.payment-method {
+    padding: 1.25rem 1.3rem;
+
+    &--payment {
+        height: 13rem;
+    }
+
+    &--delivery {
+        height: 10rem;
+    }
+
+    &--profile {
+        height: 14.45rem;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 3.15rem;
+    }
+
+    &__row + &__row {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 0.05rem solid rgb(0, 0, 0, 0.16);
+    }
+
+    &__icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 0.65rem;
+        background: #f47b0a;
+    }
+
+    &__icon-wrap--pink {
+        background: #eb4796;
+    }
+
+    &__icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    &__label {
+        font-size: 1.05rem;
+        font-weight: 700;
+    }
+}
+
+.choice-indicator {
+    flex: 0 0 auto;
+    width: 1rem;
+    height: 1rem;
+    border: 0.05rem solid #9f9f9f;
+    border-radius: 50%;
+
+    &--active {
+        border: 0.25rem solid $color-primary;
+    }
+}

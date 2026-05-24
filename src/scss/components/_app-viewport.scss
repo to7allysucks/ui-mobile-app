@@ -1,0 +1,30 @@
+@use '../utilities' as *;
+
+.app-viewport {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #d9d9d9;
+
+    @include respond-to(mobile) {
+        display: block;
+    }
+}
+
+.app-frame {
+    position: relative;
+    width: $screen-width;
+    min-height: $screen-short;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    background: $color-surface;
+
+    @include respond-to(mobile) {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    &--extended {
+        min-height: $screen-tall;
+    }
+}

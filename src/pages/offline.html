@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - Bella Olonje</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app-viewport">
+    <section class="app-frame">
+      @@include('_navbar-top.html', {
+        "linkBack": "home.html",
+        "iconBack": "assets/icons/icon-back.svg",
+        "title": "Offline",
+        "linkAction": "",
+        "iconAction": ""
+      })
+      <div class="empty-placeholder empty-placeholder--offline">
+        <img class="empty-placeholder__glyph" src="assets/icons/icon-empty-offline.svg" alt="">
+        <h1 class="empty-placeholder__title">You're offline</h1>
+        <p class="empty-placeholder__text">Check your internet connection and try again.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

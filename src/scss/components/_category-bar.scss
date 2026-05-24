@@ -1,0 +1,30 @@
+@use '../utilities' as *;
+
+.category-bar {
+    position: absolute;
+    top: 22rem;
+    left: 6rem;
+    display: flex;
+    gap: 2.55rem;
+    color: $color-muted;
+    font-size: 1.05rem;
+
+    &__option {
+        position: relative;
+    }
+
+    &__option--highlight {
+        color: $color-primary;
+    }
+
+    &__option--highlight::after {
+        content: "";
+        position: absolute;
+        top: 2rem;
+        right: -1rem;
+        left: -1rem;
+        height: 0.2rem;
+        border-radius: 2rem;
+        background: $color-primary;
+    }
+}
