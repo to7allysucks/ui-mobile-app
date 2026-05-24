@@ -40,27 +40,28 @@
 
     &__thumb-wrap {
         position: absolute;
-        top: 1rem;
-        left: 1.05rem;
-        width: 4.35rem;
-        height: 4.35rem;
+        top: 0.25rem;
+        left: 0.7rem;
+        width: 6.2rem;
+        height: 6.2rem;
         overflow: hidden;
         border-radius: 50%;
     }
 
     &__thumb {
         position: absolute;
-        top: -0.25rem;
-        left: -1.5rem;
-        width: 7.3rem;
-        height: 5rem;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
+        object-position: center;
     }
 
     &__name {
         position: absolute;
         top: 2rem;
-        left: 6.4rem;
+        left: 7.5rem;
         margin: 0;
         font-size: 1.05rem;
         font-weight: 800;
@@ -69,7 +70,7 @@
     &__cost {
         position: absolute;
         top: 3.65rem;
-        left: 6.45rem;
+        left: 7.5rem;
         margin: 0;
         color: $color-primary;
         font-size: 1rem;
