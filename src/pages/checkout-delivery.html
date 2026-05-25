@@ -31,16 +31,18 @@
         </section>
         <section class="order-summary__section">
           <h3 class="order-summary__section-title">Delivery method</h3>
-          <div class="info-panel payment-method payment-method--delivery">
-            <div class="payment-method__row">
-              <span class="choice-indicator choice-indicator--active"></span>
+          <form class="info-panel payment-method payment-method--delivery">
+            <label class="payment-method__row">
+              <input type="radio" name="delivery-method" value="door" class="choice-indicator__input" checked>
+              <span class="choice-indicator"></span>
               <span class="payment-method__label">Door delivery</span>
-            </div>
-            <div class="payment-method__row">
+            </label>
+            <label class="payment-method__row">
+              <input type="radio" name="delivery-method" value="pickup" class="choice-indicator__input">
               <span class="choice-indicator"></span>
               <span class="payment-method__label">Pick up</span>
-            </div>
-          </div>
+            </label>
+          </form>
         </section>
       </div>
       <div class="order-summary__total">

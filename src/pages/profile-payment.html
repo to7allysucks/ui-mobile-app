@@ -26,29 +26,32 @@
         </article>
         <section class="order-summary__section">
           <h3 class="order-summary__section-title">Payment Method</h3>
-          <div class="info-panel payment-method payment-method--profile">
-            <div class="payment-method__row">
-              <span class="choice-indicator choice-indicator--active"></span>
+          <form class="info-panel payment-method payment-method--profile">
+            <label class="payment-method__row">
+              <input type="radio" name="payment-method" value="card" class="choice-indicator__input" checked>
+              <span class="choice-indicator"></span>
               <span class="payment-method__icon-wrap">
                 <img class="payment-method__icon" src="assets/icons/icon-card.svg" alt="">
               </span>
               <span class="payment-method__label">Card</span>
-            </div>
-            <div class="payment-method__row">
+            </label>
+            <label class="payment-method__row">
+              <input type="radio" name="payment-method" value="bank" class="choice-indicator__input">
               <span class="choice-indicator"></span>
               <span class="payment-method__icon-wrap payment-method__icon-wrap--pink">
                 <img class="payment-method__icon" src="assets/icons/icon-bank.svg" alt="">
               </span>
               <span class="payment-method__label">Bank account</span>
-            </div>
-            <div class="payment-method__row">
+            </label>
+            <label class="payment-method__row">
+              <input type="radio" name="payment-method" value="paypal" class="choice-indicator__input">
               <span class="choice-indicator"></span>
               <span class="payment-method__icon-wrap">
                 <img class="payment-method__icon" src="assets/icons/icon-paypal.svg" alt="">
               </span>
               <span class="payment-method__label">Paypal</span>
-            </div>
-          </div>
+            </label>
+          </form>
         </section>
       </div>
       <a class="action-button" href="profile.html">Update</a>

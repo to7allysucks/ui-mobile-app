@@ -16,6 +16,7 @@
     }
 
     &__row {
+        position: relative;
         display: flex;
         align-items: center;
         gap: rem(16);
@@ -60,7 +61,16 @@
     border: rem(1) solid #9f9f9f;
     border-radius: 50%;
 
-    &--active {
+    &__input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        cursor: pointer;
+    }
+
+    &--active,
+    .choice-indicator__input:checked + & {
         border: rem(4) solid $color-primary;
     }
 }

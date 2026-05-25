@@ -27,22 +27,24 @@
         <a class="category-bar__option" href="home.html">Sauce</a>
       </nav>
       <a class="home-extra" href="search-results.html">see more</a>
-      <a class="food-card food-card--start" href="product.html">
-        <span class="food-card__surface"></span>
-        <span class="food-card__circle">
-          <img class="food-card__photo" src="assets/images/veggie-tomato-mix.png" alt="Veggie tomato mix">
-        </span>
-        <h2 class="food-card__name">Veggie tomato mix</h2>
-        <p class="food-card__cost">N1,900</p>
-      </a>
-      <a class="food-card food-card--end" href="product.html">
-        <span class="food-card__surface"></span>
-        <span class="food-card__circle">
-          <img class="food-card__photo" src="assets/images/spicy-fish-sauce.png" alt="Spicy fish sauce">
-        </span>
-        <h2 class="food-card__name">Spicy fish sauce</h2>
-        <p class="food-card__cost">N2,300.99</p>
-      </a>
+      <div class="food-slider">
+        <a class="food-card" href="product.html">
+          <span class="food-card__surface"></span>
+          <span class="food-card__circle">
+            <img class="food-card__photo" src="assets/images/veggie-tomato-mix.png" alt="Veggie tomato mix">
+          </span>
+          <h2 class="food-card__name">Veggie tomato mix</h2>
+          <p class="food-card__cost">N1,900</p>
+        </a>
+        <a class="food-card" href="product.html">
+          <span class="food-card__surface"></span>
+          <span class="food-card__circle">
+            <img class="food-card__photo" src="assets/images/spicy-fish-sauce.png" alt="Spicy fish sauce">
+          </span>
+          <h2 class="food-card__name">Spicy fish sauce</h2>
+          <p class="food-card__cost">N2,300.99</p>
+        </a>
+      </div>
       @@include('_navbar-bottom.html', {
         "classHome": "navbar-bottom__glyph--current",
         "classOffers": "",
